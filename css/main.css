@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    width:100%
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.header .container{
+    padding-top: 26px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_img{
+    margin-right: 5px;
+}
+
+
+.navigation_list{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    
+}
+
+.navigation_link {
+    transition: 0.3s;
+}
+
+.navigation_link:hover{
+    color: #CDA274;
+    
+}
+
+.dream_interior{
+    background-image: url(../img/dream_interior.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.dream_interior_text_wrapper{
+    max-width: 600px;
+    padding-top: 15%;
+    padding-bottom: 25%;
+}
+
+.dream_interior_header{
+    margin-bottom: 19px;
+    margin-top: 0px;
+
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 80px;
+    
+}
+
+.dream_interior_text{
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.dream_interior_btn{
+    background-image: url(../img/dream_interior_button.png);
+    height: 70px;
+    width: 207px;
+}
+
+.dream_interior_btn_link{
+    position: relative;
+    color: white;
+    font-size: 18px;
+    top: 22px; 
+    padding: 22px 85px 22px 34px;
+}
+
+.selection_section .container{
+    margin-bottom: 100px;
+
+    display: flex;
+    align-items:flex-start; 
+    justify-content: space-evenly;
+}
+
+.select_card{
+    text-align: center;
+    max-width: 20%;
+}
+
+.select_card_name{
+    font-size: 25px;
+    font-family: "DM Serif Display", serif;
+    
+    margin-bottom: 17px;
+}
+
+.select_card_text{
+    font-size: 22px;
+    margin-bottom: 48px;
+    font-weight: 400;
+}
+
+.select_card_link{
+    font-size: 18px;
+}
+
+
+.contact_number .container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+.contact_number_text_block{
+    padding-right: 100px;
+    
+}
+
+.contact_number_header{
+    padding-bottom: 45px;
+
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.contact_number_text{
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+.contact_number_main_section{
+    display: flex;
+    justify-content: left;
+    align-items:center
+}
+
+.contact_number_phone_icon{
+    padding-right: 20px;
+}
+
+.contact_number_main_text{
+    font-size: 22px;
+}
+
+
+.reviews .container{
+    background-color: #F4F0EC;
+    border-radius: 70px;
+
+    text-align: center;
+}
+
+.reviews_examples_section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.review_block{
+    background-color: white;
+    border-radius: 30px;
+}
+
+.review_block:not(:last-child){
+    margin-right: 20px;
+}
+
+.review_block:first-child{
+    margin-left: 50px;
+}
+
+.review_block:last-child{
+    margin-right: 50px;
+}
+
+.reviews_header{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 45px;
+    
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 500px;
+}
+
+.review_client_name{
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+}
+
+.review_client_location{
+    font-size: 18px;
+}
+
+.review_text{
+    font-size: 20px;
+}
