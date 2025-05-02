@@ -2,7 +2,7 @@
 
 
 html{
-    width:100%
+    width:100%;
 }
 
 body{
@@ -27,8 +27,8 @@ ul{
 }
 
 .container{
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .header .container{
@@ -40,13 +40,13 @@ ul{
 }
 
 .header_img{
-    margin-right: 5px;
+    margin-right: 0.36vw;
 }
 
 
 .navigation_list{
     display: flex;
-    gap: 40px;
+    gap: 2.86vw;
 
     font-size: 20px;
     
@@ -71,7 +71,7 @@ ul{
 }
 
 .dream_interior_text_wrapper{
-    max-width: 600px;
+    max-width: 42vw;
     padding-top: 15%;
     padding-bottom: 25%;
 }
@@ -92,6 +92,8 @@ ul{
     font-size: 22px;
 }
 
+
+/*поменять кнопку*/
 .dream_interior_btn{
     height: 70px;
     width: 207px;
@@ -114,10 +116,11 @@ ul{
     display: flex;
     align-items:flex-start; 
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .select_card{
-    max-width: 20%;
+    max-width: 30%;
 
     text-align: center;
 }
@@ -168,7 +171,10 @@ ul{
 .contact_number_main_section{
     display: flex;
     justify-content: left;
-    align-items:center
+    align-items:center;
+
+    min-width: 50%;
+    height: auto;
 }
 
 .contact_number_phone_icon{
@@ -179,9 +185,14 @@ ul{
     font-size: 22px;
 }
 
+.contact_number_img{
+    min-width: 50%;
+}
+
 
 .reviews .container{
     padding-bottom: 120px;
+    margin-bottom: 140px;
 
     text-align: center;
     background-color: #F4F0EC;
@@ -203,10 +214,12 @@ ul{
 .reviews_examples_section{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .review_block{
-    padding: 0 35px 0 35px;
+    max-width: 25%;
+    padding: 0 1.14vw 0 1.14vw;
     background-color: white;
     border-radius: 30px;
 }
@@ -255,4 +268,38 @@ ul{
     padding-bottom: 45px;
     text-align: left;
     font-size: 20px;
+}
+
+.brands_list{
+    margin-bottom: 7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:50px;
+}
+
+.recent_projects_examples_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recent_projects_card{
+    min-width: 50%;
+}
+
+.recent_projects_card_photo{
+ 
+}
+
+.recent_projects_card_name{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.recent_projects_card_style{
+    font-size: 22px;
 }
