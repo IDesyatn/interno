@@ -3,6 +3,7 @@
 
 html{
     width:100%;
+    font-size: 18px;
 }
 
 body{
@@ -11,6 +12,7 @@ body{
 
     font-family: "Jost", sans-serif;
     font-style: normal;
+    color: #4D5053;
 }
 
 
@@ -26,6 +28,16 @@ ul{
     list-style: none;
 }
 
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+h1,h2{
+    color: #292F36;
+}
+
 .container{
     margin-left: 10%;
     margin-right: 10%;
@@ -35,8 +47,8 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 26px;
-    padding-bottom: 30px;
+    padding-top: 2.89vh;
+    padding-bottom: 3.33vh;
 }
 
 .header_img{
@@ -48,8 +60,7 @@ ul{
     display: flex;
     gap: 2.86vw;
 
-    font-size: 20px;
-    
+    font-size: 1rem;
 }
 
 .navigation_link {
@@ -61,8 +72,16 @@ ul{
     
 }
 
+.navigation_button{
+    display: none;
+}
+
+.navigation_button_icon{
+    display:none;
+}
+
 .dream_interior{
-    margin-bottom: 100px;
+    margin-bottom: 11.11vh;
     
     background-image: url(../img/dream_interior.png);
     background-repeat: no-repeat;
@@ -77,19 +96,18 @@ ul{
 }
 
 .dream_interior_header{
-    margin-bottom: 19px;
-    margin-top: 0px;
+    margin-bottom: 2.11vh;
+    margin-top: 0;
 
     font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-size: 80px;
+    font-size: 4rem;
     
 }
 
 .dream_interior_text{
-    margin-bottom: 35px;
+    margin-bottom: 3.89vh;
 
-    font-size: 22px;
+    font-size: 1.1rem;
 }
 
 
@@ -110,9 +128,11 @@ ul{
     color: white;
     font-size: 18px;
 }
+/*энд*/
+
 
 .selection_section .container{
-    margin-bottom: 100px;
+    margin-bottom: 11.11vh;
     display: flex;
     align-items:flex-start; 
     justify-content: space-evenly;
@@ -126,46 +146,44 @@ ul{
 }
 
 .select_card_name{
-    margin-bottom: 17px;
+    margin-bottom: 1.89vh;
 
-    font-size: 25px;
+    font-size: 1.25rem;
     font-family: "DM Serif Display", serif;
 }
 
 .select_card_text{
-    margin-bottom: 48px;
+    margin-bottom: 5.33vh;
 
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 1.1rem;
 }
 
 .select_card_link{
-    font-size: 18px;
+    font-size: 0.9rem;
 }
 
 
 .contact_number .container{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 150px;
+    padding-bottom: 16.67vh;
 }
 
 .contact_number_text_block{
-    padding-right: 100px;
+    padding-right: 6.94vw;
 }
 
 .contact_number_header{
-    padding-bottom: 45px;
+    padding-bottom: 5vh;
 
     font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-size: 50px;
+    font-size: 2.5rem;
 }
 
 .contact_number_text{
-    padding-bottom: 30px;
+    padding-bottom: 3.33vh;
 
-    font-size: 22px;
+    font-size: 1.1rem;
 }
 
 .contact_number_main_section{
@@ -178,11 +196,11 @@ ul{
 }
 
 .contact_number_phone_icon{
-    padding-right: 20px;
+    padding-right: 2.22vh;
 }
 
 .contact_number_main_text{
-    font-size: 22px;
+    font-size: 1.1rem;
 }
 
 .contact_number_img{
@@ -191,8 +209,8 @@ ul{
 
 
 .reviews .container{
-    padding-bottom: 120px;
-    margin-bottom: 140px;
+    padding-bottom: 13.33vh;
+    margin-bottom: 15.56vh;
 
     text-align: center;
     background-color: #F4F0EC;
@@ -201,13 +219,12 @@ ul{
 
 .reviews_header{
     display: inline-block;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    max-width: 500px;
+    padding-top: 5.56vh;
+    padding-bottom: 5.56vh;
+    max-width: 55.56vh;
 
     font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-size: 45px;
+    font-size: 2.25rem;
 }
 
 
@@ -225,27 +242,27 @@ ul{
 }
 
 .review_block:not(:last-child){
-    margin-right: 30px;
+    margin-right: 3.33vh;
 }
 
 .review_block:first-child{
-    margin-left: 50px;
+    margin-left: 5.56vh;
 }
 
 .review_block:last-child{
-    margin-right: 50px;
+    margin-right: 5.56vh;
 }
 
 
 .review_client_info{
     display: flex;
-    gap: 20px;
-    padding: 50px 0px 25px 0px;
+    gap: 2.22vh;
+    padding: 5.56vh 0 2.78vh 0;
 }
 
 .review_photo{
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 5.56vw;
+    max-height: 8.89vh;
 }
 
 .client_info_text{
@@ -256,18 +273,17 @@ ul{
     margin: 0;
 
     font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-size: 25px;
+    font-size: 1.25rem;
 }
 
 .review_client_location{
-    font-size: 18px;
+    font-size: 0.9rem;
 }
 
 .review_text{
-    padding-bottom: 45px;
+    padding-bottom: 5vh;
     text-align: left;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .brands_list{
@@ -277,29 +293,110 @@ ul{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap:50px;
+    gap: 3.47vw;
+}
+
+.recent_projects{
+    padding-bottom: 15.56vh;
+}
+
+.recent_projects_description{
+    padding-bottom: 7.78vh;
+    text-align: center;
+}
+
+.recent_projects_header{
+    padding-bottom: 2.22vh;
+    font-family: "DM Serif Display", serif;
+    font-size: 2.35rem;
+}
+
+.recent_projects_text{
+    max-width: 70%;
+    display: inline-block;
+    font-size: 1.2rem;
 }
 
 .recent_projects_examples_section{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
+    
+    gap:1.5rem;
+    
 }
 
 .recent_projects_card{
-    min-width: 50%;
+    flex: 0 1 calc(50% - 0.75rem)
 }
 
 .recent_projects_card_photo{
- 
+    width: 100%;
+    height: auto;
+
+    padding-bottom: 2.67vh;
+}
+
+.recent_projcts_bottom_card_part{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .recent_projects_card_name{
     font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-size: 24px;
+    font-size: 1.2rem;
+    line-height: 1.85rem;
 }
 
 .recent_projects_card_style{
-    font-size: 22px;
+    font-size: 1.1rem;
+    
+}
+
+.recent_projects_button{
+    height: 3.5rem;
+    width: 3.5rem;
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #F4F0EC;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+
+.statistics_container{
+    padding: 15.56vh 10% 15.56vh 10%;
+
+    background-color: #F4F0EC;
+}
+
+.statictics_section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.statistics_item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.statictics_main_text{
+    font-family: "DM Serif Display", serif;
+    font-size: 4.25rem;
+    line-height: 6.38rem;
+    color: #CDA274;
+}
+
+.statisctics_text{
+    font-size: 1.1rem;
 }

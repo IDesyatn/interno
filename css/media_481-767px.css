@@ -1,0 +1,40 @@
+@media (max-width:767px){
+    .navigation_list{
+        display: none;
+
+        position: absolute;
+        right:0;
+        height: auto;
+        width: 50%;
+        padding: 2rem;
+
+        flex-direction: column;
+        
+        background: #ffffff;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .navigation_button_icon {
+        width: 35px;
+        height: 35px;
+        display: block;
+      }
+  
+      .navigation_button_icon span {
+        display: block;
+        height: 4px;
+        background: rgb(0, 0, 0);
+        margin: 6px 0;
+      }
+      
+       #navigation_button:checked + .navigation_button_icon + .navigation_list {
+        display: block;
+      }
+  
+
+
+    .contact_number_img{
+        display: none;
+    }
+}
