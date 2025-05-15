@@ -1,4 +1,17 @@
 @media (max-width:767px){
+
+  html{
+    font-size: 16px;
+}
+
+  .container{
+    margin: 0 5% 0 5%;
+  }
+
+  .header .container{
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+  }
     .navigation_list{
         display: none;
 
@@ -31,10 +44,96 @@
        #navigation_button:checked + .navigation_button_icon + .navigation_list {
         display: block;
       }
-  
 
+      .dream_interior_text_wrapper{
+        max-width: 70%;
+
+        padding-top: 30%;
+        padding-bottom: 40%;
+      }
+
+
+      .dream_interior_header{
+        font-size: 2.7rem;
+      }
+      
+     .selection_section .container{
+      margin-bottom: 8vh;
+      flex: 0 1 100%;
+      row-gap: 3vh;
+      background-color: #F4F0EC;
+      padding: 2rem;
+      border-radius: 10%;
+     }
+
+     .select_card{
+      max-width: 100%;
+}
+
+  .contact_number .container{
+    padding-bottom: 10vh;
+  }
 
     .contact_number_img{
         display: none;
+    }
+
+    .contact_number_header{
+      font-size: 2.3rem;
+    }
+
+    .reviews .container{
+      padding-bottom: 5vh;
+      margin-bottom: 10vh;
+      border-radius: 30px;
+    }
+
+    .reviews_header{
+      font-size: 2rem;
+      max-width: 90%;
+    }
+
+
+    .reviews_examples_section{
+        flex: 0 1 100%;
+        row-gap: 3vh;
+    }
+
+   .review_block{
+      max-width: 100%;
+      margin: 0 3vw 0 3vw !important;
+      padding: 0 3vw 0 3vw;
+    }
+
+    .brands_list{
+      margin-bottom: 8vh;
+    }
+
+    .brands_image{
+      max-width: 40%;
+      padding-bottom:10%;
+    }
+
+    .recent_projects_text{
+      max-width: 90%;
+  }
+
+    .recent_projects_card{
+      flex: 0 1 100%
+  }
+
+   .recent_projects_button{
+    align-self: center;
+  }
+
+
+    .recent_blogs_text{
+      max-width: 90%;
+    }
+
+     .recent_blogs_cards{
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 1rem;
     }
 }

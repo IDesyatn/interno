@@ -17,3 +17,11 @@
         
     }
 }
+
+@media (max-width:1024px){
+    .recent_blogs_cards{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
